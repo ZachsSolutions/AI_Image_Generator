@@ -12,7 +12,7 @@ export default class AI_Image_Generator extends LightningElement {
     async sendRequest() {
         this.isLoading = true; // Start loading
 
-        const apiKey = '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';
+        const apiKey = 'YOUR_API_KEY';
         const model = 'image-alpha-001';
         const url = `https://api.openai.com/v1/images/generations`;
 
